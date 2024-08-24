@@ -269,49 +269,73 @@ const Home = () => {
             The Developers
           </Typography>
           <div className="grid grid-cols-4 gap-24">
-            <Tooltip title="Daniel Angelo Rodriguez" arrow placement="top">
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                className={`h-40 w-40 bg-cover bg-center`}
-                style={{
-                  borderRadius: "80px",
-                  backgroundImage: "url(../images/dan.jpg)",
-                }}
-              ></motion.div>
-            </Tooltip>
+            <a
+              href="https://github.com/d4Nc0D31902"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Tooltip title="Daniel Angelo Rodriguez" arrow placement="top">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  className={`h-40 w-40 bg-cover bg-center`}
+                  style={{
+                    borderRadius: "80px",
+                    backgroundImage: "url(../images/dan.jpg)",
+                  }}
+                ></motion.div>
+              </Tooltip>
+            </a>
 
-            <Tooltip title="Frans Adryhel Manlangit" arrow placement="top">
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                className={`h-40 w-40 bg-cover bg-center`}
-                style={{
-                  backgroundImage: "url(../images/frans.jpg)",
-                  borderRadius: "80px",
-                }}
-              ></motion.div>
-            </Tooltip>
+            <a
+              href="https://github.com/FransManlangit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Tooltip title="Frans Adryhel Manlangit" arrow placement="top">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  className={`h-40 w-40 bg-cover bg-center`}
+                  style={{
+                    backgroundImage: "url(../images/frans.jpg)",
+                    borderRadius: "80px",
+                  }}
+                ></motion.div>
+              </Tooltip>
+            </a>
 
-            <Tooltip title="Elija Reigne Monterona" arrow placement="top">
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                className={`h-40 w-40 bg-cover bg-center`}
-                style={{
-                  backgroundImage: "url(../images/monte.jpg)",
-                  borderRadius: "80px",
-                }}
-              ></motion.div>
-            </Tooltip>
+            <a
+              href="https://github.com/Reigne"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Tooltip title="Elija Reigne Monterona" arrow placement="top">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  className={`h-40 w-40 bg-cover bg-center`}
+                  style={{
+                    backgroundImage: "url(../images/monte.jpg)",
+                    borderRadius: "80px",
+                  }}
+                ></motion.div>
+              </Tooltip>
+            </a>
 
-            <Tooltip title="Novemger Pascua" arrow placement="top">
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                className={`h-40 w-40 bg-cover bg-center`}
-                style={{
-                  backgroundImage: "url(../images/nov.jpg)",
-                  borderRadius: "80px",
-                }}
-              ></motion.div>
-            </Tooltip>
+            <a
+              href="https://github.com/XdebronneX"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Tooltip title="Novemger Pascua" arrow placement="top">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  className={`h-40 w-40 bg-cover bg-center`}
+                  style={{
+                    backgroundImage: "url(../images/nov.jpg)",
+                    borderRadius: "80px",
+                  }}
+                ></motion.div>
+              </Tooltip>
+            </a>
           </div>
         </motion.div>
 
