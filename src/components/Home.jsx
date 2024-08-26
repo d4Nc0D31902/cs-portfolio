@@ -5,6 +5,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { motion } from "framer-motion";
@@ -49,13 +50,13 @@ const Home = () => {
         {/* Contact Us */}
         <motion.div
           whileHover={{ scale: 1.02 }}
-          className={`col-span-4 row-span-4 ${gridItemCol} text-white bg-cover bg-center text-justify p-2`}
+          className={`col-span-4 row-span-4 ${gridItemCol} text-white bg-cover bg-center text-justify p-2 flex justify-center items-center`}
           style={{ backgroundImage: "url(../images/matte.jpg)" }}
         >
           <Typography variant="h4" gutterBottom>
             Contact Us
           </Typography>
-          <div className="grid grid-cols-4 gap-4 mt-5">
+          <div className="grid grid-cols-3 gap-4 mt-5 justify-center items-center">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=capstone.solutions24@gmail.com"
               target="_blank"
@@ -79,24 +80,13 @@ const Home = () => {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/in/daniel-angelo-rodriguez-31b36431b"
+              href="https://www.instagram.com/capstonesolutions24/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="bg-black rounded-lg p-4 w-16 h-16 flex justify-center items-center">
-                <Tooltip title="LinkedIn" placement="top" arrow>
-                  <LinkedInIcon sx={{ fontSize: 40 }} />
-                </Tooltip>
-              </div>
-            </a>
-            <a
-              href="https://github.com/d4Nc0D31902"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="bg-black rounded-lg p-4 w-16 h-16 flex justify-center items-center">
-                <Tooltip title="Github" placement="top" arrow>
-                  <GitHubIcon sx={{ fontSize: 40 }} />
+                <Tooltip title="Instagram" placement="top" arrow>
+                  <InstagramIcon sx={{ fontSize: 40 }} />
                 </Tooltip>
               </div>
             </a>
@@ -161,16 +151,6 @@ const Home = () => {
                 className={`h-20 w-20 bg-cover bg-center`}
                 style={{
                   backgroundImage: "url(../images/express.png)",
-                }}
-              ></motion.div>
-            </Tooltip>
-
-            <Tooltip title="Laravel" arrow placement="top">
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                className={`h-20 w-20 bg-cover bg-center`}
-                style={{
-                  backgroundImage: "url(../images/lara.png)",
                 }}
               ></motion.div>
             </Tooltip>
@@ -245,7 +225,7 @@ const Home = () => {
             className="col-span-2 row-span-3 flex flex-col justify-center items-center rounded-3xl text-white bg-cover bg-center text-justify"
             style={{ backgroundImage: "url(../images/matte.jpg)" }}
           >
-            <Typography variant="h1">5+</Typography>
+            <Typography variant="h1">10+</Typography>
           </motion.div>
         </Tooltip>
 
